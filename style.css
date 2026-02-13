@@ -557,6 +557,8 @@ footer {
   border-top: 1.5px solid #1b324d11;
   letter-spacing: 0.02em;
   text-shadow: 0 2px 8px #000, 0 0 2px #4A90E2cc;
+  position: relative; /* Added position */
+  z-index: 10; /* Added z-index */
 }
 footer a, footer .footer-repo-link {
   color: #fff !important;
@@ -587,6 +589,7 @@ footer .footer-name {
     text-align: center;
   }
   .hero-left, .hero-right {
+    pointer-events: none; /* Added to ensure it does not overlap footer */
     min-width: 0;
     width: 100%;
     justify-content: center;
