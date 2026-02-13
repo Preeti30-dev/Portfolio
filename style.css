@@ -548,19 +548,21 @@ section h2 {
 
 /* FOOTER */
 footer {
-  background: #1f2d41;
-  color: #fff; /* Set to pure white for maximum visibility */
+  background: #101828; /* Even darker for more contrast */
+  color: #fff;
   text-align: center;
   padding: 1.5rem 0 1rem 0;
   font-size: 1rem;
   margin-top: 2rem;
   border-top: 1.5px solid #1b324d11;
   letter-spacing: 0.02em;
+  text-shadow: 0 2px 8px #000, 0 0 2px #4A90E2cc;
 }
 footer a, footer .footer-repo-link {
   color: #fff !important;
   text-decoration: underline;
   transition: color 0.3s;
+  text-shadow: 0 2px 8px #000, 0 0 2px #4A90E2cc;
 }
 footer a:hover, footer .footer-repo-link:hover {
   color: var(--accent);
